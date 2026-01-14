@@ -5,11 +5,11 @@
 This repository contains a collection of prompt engineering systems designed to control, adapt, and evaluate large language model behavior.
 Each project focuses on intentional prompt design, not application code.
 
-The goal of the repository is to demonstrate how structured prompts, chains, and routing logic can reliably shape AI outputs.
+The goal of the repository is to demonstrate how structured prompts, chains, and routing logic can reliably shape AI outputs with model-agnostic prompts.
 
 ---
 
-Projects Included
+## Projects Included
 
 ### Tone Shifter 
    Rewrites text into controlled tones while preserving meaning
@@ -20,11 +20,9 @@ Projects Included
 ### Prompt Router
   Dynamically selects response strategies based on user intent
 
-    All prompts are model-agnostic by design
-
 ---
 
-What This Repository Demonstrates
+## What This Repository Demonstrates
 
 - Prompt architecture and constraint design
 
@@ -38,7 +36,7 @@ What This Repository Demonstrates
 
 ---
 
-Limitations & Future Work
+## Limitations & Future Work
 
 - No automated evaluation yet
 
