@@ -19,11 +19,13 @@ A fixed role ensures consistency, strict constraints prevent hallucination, and 
 
 # Examples
 
-1. “I didn’t like the policy.” →
+1. Input: “I didn’t like the policy. The government could have made it better but they didn't deliberately. Is it really difficult for them to take care of the nation or are they just not concerned at all? This worries me daily as a citizen of this country. Let's take this matter into our hands and reform it.”
+Tone: activist →
 “I oppose this policy. The government had the power to design it better and chose not to. That raises a serious question about accountability: are they unable to serve the nation, or simply unwilling? As a citizen, this failure weighs on me every day. It is time for us to step up, take collective responsibility, and push for meaningful reform.”
 
 
-2. “Send me the files soon.” →
+2. Input: “I am an ai business consultant who solves real world problems with advanced solutions. You can reach to me anytime through my mail and I'll be glad to help you. I'll respond within 24 hours.”
+Tone: professional →
 “I am an AI business consultant focused on solving real-world problems using advanced, practical solutions. You can contact me anytime via email, and I will be happy to assist you. I guarantee a response within 24 hours.”
 
 
