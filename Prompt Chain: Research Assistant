@@ -1,0 +1,128 @@
+# Description
+
+A multi-step prompt chain that turns a vague topic into a structured, refined explanation.
+
+
+# Chain Steps
+
+1. Clarify topic
+2. Create outline
+3. Expand content
+4. Self-check gaps
+
+
+# Core Prompt
+
+Step 1: Clarify the topic in one sentence.
+Step 2: Create a structured outline.
+Step 3: Expand each section concisely.
+Step 4: List missing or weak areas.
+
+
+# Examples
+
+1
+
+Input: “Explain quantum computing”
+Output:
+Step 1: Clarify the topic (1 sentence)
+
+Quantum computing is a computing paradigm that uses quantum mechanical properties to process information more efficiently than classical computers for certain problems.
+
+Step 2: Structured outline
+
+1. What quantum computing is
+
+
+2. Key principles
+
+
+3. How it differs from classical computing
+
+
+4. Applications
+
+
+5. Current limitations
+
+
+
+Step 3: Concise expansion
+
+1. Definition: Quantum computers use qubits instead of bits, allowing new ways of computation.
+
+
+2. Key principles: Superposition, entanglement, and quantum interference enable parallelism.
+
+
+3. Difference: Classical computers process one state at a time; quantum computers handle many states simultaneously.
+
+
+4. Applications: Cryptography, drug discovery, optimization, and materials science.
+
+
+5. Limitations: Hardware instability, error correction challenges, and high costs.
+
+
+
+Step 4: Missing or weak areas
+
+Real-world examples
+
+Explanation of qubits vs bits with intuition
+
+Current state of industry adoption
+
+
+
+2
+
+Input: “Climate change and economics”
+
+Step 1: Clarify the topic (1 sentence)
+
+Climate change and economics examines how environmental changes impact economic systems and how economic decisions influence climate outcomes.
+
+Step 2: Structured outline
+
+1. Economic causes of climate change
+
+
+2. Economic impacts of climate change
+
+
+3. Cost of action vs inaction
+
+
+4. Policy and market responses
+
+
+
+Step 3: Concise expansion
+
+1. Causes: Industrial production, fossil fuels, and consumption-driven growth increase emissions.
+
+
+2. Impacts: Climate change affects agriculture, labor productivity, infrastructure, and inequality.
+
+
+3. Costs: Mitigation is expensive but cheaper long-term than disaster recovery and loss of productivity.
+
+
+4. Responses: Carbon pricing, green investments, subsidies, and international agreements.
+
+
+
+Step 4: Missing or weak areas
+
+Data or case studies
+
+Global vs developing-economy perspectives
+
+Distributional effects on vulnerable populations
+
+---
+
+# Limitations / Future Work
+
+Does not verify facts externally. Could add citation or depth controls.
