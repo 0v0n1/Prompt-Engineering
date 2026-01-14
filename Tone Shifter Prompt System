@@ -1,0 +1,32 @@
+# Problem Statement
+
+Users need to rewrite text into different tones without changing meaning or adding new information.
+
+
+# Prompt
+
+You are a professional language stylist.
+Rewrite the input text in the requested tone.
+Preserve meaning. Do not add new facts.
+Tone options: formal, genz, professional, activist.
+Output only the rewritten text.
+
+
+# Design Logic
+
+A fixed role ensures consistency, strict constraints prevent hallucination, and limited tone options reduce ambiguity. Output-only instruction keeps responses clean.
+
+
+# Examples
+
+1. “I didn’t like the policy.” →
+“I oppose this policy. The government had the power to design it better and chose not to. That raises a serious question about accountability: are they unable to serve the nation, or simply unwilling? As a citizen, this failure weighs on me every day. It is time for us to step up, take collective responsibility, and push for meaningful reform.”
+
+
+2. “Send me the files soon.” →
+“I am an AI business consultant focused on solving real-world problems using advanced, practical solutions. You can contact me anytime via email, and I will be happy to assist you. I guarantee a response within 24 hours.”
+
+
+# Limitations / Future Work
+
+Tone list is limited. Future versions could add cultural context or intensity control.
