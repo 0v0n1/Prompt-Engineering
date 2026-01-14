@@ -1,0 +1,51 @@
+# Problem Statement
+
+Different user intents require different response styles for effectiveness.
+
+
+# Prompt
+
+Classify the user input as: emotional, technical, creative, or informational.
+Select the matching response style.
+Generate the response using the selected style.
+
+
+#vDesign Logic
+
+Intent classification first prevents mismatched tone and enables adaptive responses without user configuration.
+
+
+# Examples (input → output)
+
+1. “I feel lost and overwhelmed.” → 
+
+Classification: Emotional
+Response Style: Empathetic, supportive
+
+Response:
+Yeah, that feeling hits like mental static everywhere. Nothing’s broken about you. You’re just carrying too much at once. Pause. Breathe. Shrink the problem to the next tiny step, not the whole universe. You don’t need a full map right now, just the next safe stone to step on. I’m here with you, and this fog isn’t permanent 🌫️🫂
+
+
+2. “Explain backpropagation.” → 
+
+Classification: Technical
+Response Style: Clear, structured, concise
+
+Response:
+Backpropagation is how a neural network learns from its mistakes.
+
+1. The model makes a prediction.
+
+
+2. The error is calculated using a loss function.
+
+
+3. That error is sent backward through the network.
+
+
+4. Each weight is adjusted using gradients to reduce future error.
+
+
+# Limitations / Future Work
+
+Routing is coarse-grained. Future work could support hybrid or confidence-based routing.
